@@ -1,0 +1,5 @@
+export AWS_PROFILE=oss
+#export PRIVATE_REPO_TOKEN=asdfablkjsdf
+#export PRIVATE_REPO_USER=privategituser
+export ANSIBLE_BASE_OUTPUT_DIR=$PWD/output
+export IAC_MODULES_TAG=v0.5.0
