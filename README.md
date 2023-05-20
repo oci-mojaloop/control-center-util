@@ -1,3 +1,5 @@
+docker run -it -v ~/.aws:/root/.aws ghcr.io/mojaloop/control-center-util:0.9.1 /bin/bash
+
 to get started, run the follwing from commandline
 cd /iac-run-dir
 modify environment variables in setenv as appropriate
