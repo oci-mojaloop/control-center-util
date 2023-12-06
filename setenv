@@ -5,3 +5,4 @@ export ANSIBLE_BASE_OUTPUT_DIR=$PWD/output
 export IAC_TERRAFORM_MODULES_REPO=https://github.com/mojaloop/iac-modules.git
 export IAC_TERRAFORM_MODULES_TAG=v0.9.11
 export PRIVATE_REPO=example.com
+export CONTROL_CENTER_CLOUD_PROVIDER=nullvalue
