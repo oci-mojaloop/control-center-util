@@ -1,4 +1,28 @@
+## AWS
 docker run -it -v ~/.aws:/root/.aws ghcr.io/mojaloop/control-center-util:0.9.1 /bin/bash
+
+## OCI
+
+On the local machine , create the oci cli config like below
+
+```
+
+mkdir ~/.oci
+save a copy of the api key pem file in  the ~/.oci directory
+### config file
+
+[DEFAULT]
+user=ocid1.user.oc1..aaaaa
+fingerprint=<fingerprint>
+tenancy=ocid1.tenancy.oc1..aaaaaaaa
+region=<region_code>
+key_file=./api-key.pem
+
+```
+
+start the container instance
+
+docker run -it -v ~/.oci:/root/.aws ghcr.io/mojaloop/control-center-util:0.9.1 /bin/bash
 
 to get started, run the follwing from commandline
 ```

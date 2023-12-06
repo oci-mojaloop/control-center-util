@@ -35,7 +35,7 @@ RUN wget -q https://releases.hashicorp.com/vault/${VAULT_VERSION}/vault_${VAULT_
 RUN pip3 install --upgrade pip \
     && mkdir /workdir && cd /workdir \
     && mkdir keys \
-    && python3 -m pip install ansible==5.7.1 netaddr awscli openshift>=0.6 setuptools>=40.3.0 \
+    && python3 -m pip install ansible==5.7.1 netaddr awscli oci-cli openshift>=0.6 setuptools>=40.3.0 \
     && ansible-galaxy collection install community.kubernetes
 
 COPY . iac-run-dir
