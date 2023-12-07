@@ -35,6 +35,8 @@ source setenv
 ./init.sh
 cd /iac-run-dir/iac-modules/terraform/control-center/init
 modify environment.yaml file as appropriate
+update the setlocalenv.sh 
+source setlocalenv.sh
 ./runall.sh
 ./movestatetogitlab.sh
 ```
