@@ -22,7 +22,7 @@ key_file=/root/.oci/api-key.pem
 
 start the container instance
 
-docker run -it -v ~/.oci:/root/.aws ghcr.io/mojaloop/control-center-util:0.9.1 /bin/bash
+docker run -it -v ~/.oci:/root/.oci ghcr.io/mojaloop/control-center-util:0.9.1 /bin/bash
 
 to get started, run the follwing from commandline
 ```
