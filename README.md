@@ -16,7 +16,7 @@ user=ocid1.user.oc1..aaaaa
 fingerprint=<fingerprint>
 tenancy=ocid1.tenancy.oc1..aaaaaaaa
 region=<region_code>
-key_file=./api-key.pem
+key_file=/root/.oci/api-key.pem
 
 ```
 
